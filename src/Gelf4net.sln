@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2015
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gelf4Net", "Gelf4Net\Gelf4Net.csproj", "{21601568-D8AD-433F-998D-1500A27F3FBD}"
 EndProject
@@ -46,6 +46,8 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "portable", "portable", "{3F80A6BA-12FA-4726-BA9A-7CBAD4F8CB2C}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "net45", "net45", "{9F13DC90-1F1E-42DC-AA02-A15BF8351FC4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gelf4Net.TcpAppender", "Gelf4Net.TcpAppender\Gelf4Net.TcpAppender.csproj", "{0F1B765D-F231-4ECB-B420-83D8C576C3EF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -97,6 +99,10 @@ Global
 		{316F0E86-B131-4A24-8B2F-319CDB1CB4F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{316F0E86-B131-4A24-8B2F-319CDB1CB4F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{316F0E86-B131-4A24-8B2F-319CDB1CB4F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F1B765D-F231-4ECB-B420-83D8C576C3EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F1B765D-F231-4ECB-B420-83D8C576C3EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F1B765D-F231-4ECB-B420-83D8C576C3EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F1B765D-F231-4ECB-B420-83D8C576C3EF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -113,5 +119,9 @@ Global
 		{756CAE18-85E6-4202-AA35-5663F56E193D} = {3F80A6BA-12FA-4726-BA9A-7CBAD4F8CB2C}
 		{AB1C6C93-50B7-4DF5-80CB-4F3EA0E536DC} = {3F80A6BA-12FA-4726-BA9A-7CBAD4F8CB2C}
 		{316F0E86-B131-4A24-8B2F-319CDB1CB4F7} = {3F80A6BA-12FA-4726-BA9A-7CBAD4F8CB2C}
+		{0F1B765D-F231-4ECB-B420-83D8C576C3EF} = {9F13DC90-1F1E-42DC-AA02-A15BF8351FC4}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {299E7545-C6F7-49F7-A19B-435C71E055F6}
 	EndGlobalSection
 EndGlobal
